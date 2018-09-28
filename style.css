@@ -1,0 +1,33 @@
+container {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 20px;
+}
+#carousel {
+	display: block;
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	margin: 0 auto;
+	border: dotted 2px black;
+	overflow: hidden;
+}
+ul {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	width: 2000px;
+	margin: 0 auto;
+	padding: 0;
+	}
+li {
+	
+	
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+        float: right;
+}
+img {
+	margin: 0 auto;
+}
