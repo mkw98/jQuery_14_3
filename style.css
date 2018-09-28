@@ -28,6 +28,14 @@ li {
 	height: 400px;
         float: right;
 }
+#circles {
+	display: block;
+	width: 400px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+}
 img {
 	margin: 0 auto;
 }
