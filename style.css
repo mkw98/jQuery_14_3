@@ -37,6 +37,9 @@ li {
 #circles > ul {
 	width: 400px;
 }
+#circles > ul > li {
+	 float: none;
+}
 img {
 	margin: 0 auto;
 }
