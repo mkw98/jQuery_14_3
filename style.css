@@ -56,3 +56,21 @@ img {
 	color: #36dada;
 	padding-top: 15px;
 }
+.arrows {
+	cursor: pointer;
+	font-size: 30px;
+	background-color: #fff;
+	color: #36dada;
+	display: inline-block;
+	border: none;
+}
+
+#arrows {
+	display:flex;
+	position: absolute;
+	text-align:center;
+	top: 200px;
+	justify-content: space-between;
+	width: 550px;
+	left:400px;
+}
