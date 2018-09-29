@@ -58,7 +58,7 @@ img {
 }
 .arrows {
 	cursor: pointer;
-	font-size: 30px;
+	font-size: 50px;
 	background-color: #fff;
 	color: #36dada;
 	display: inline-block;
@@ -72,5 +72,5 @@ img {
 	top: 200px;
 	justify-content: space-between;
 	width: 550px;
-	left:400px;
+	margin-left:-75px;
 }
