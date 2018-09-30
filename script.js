@@ -14,10 +14,10 @@ $(function(){
 	/*setInterval(changeSlide, 3000); //every 3 seconds, it performs a function to change the slide */
 
 	function changeSlide () {
-		carouselList.animate({'marginLeft': '-400px'}, 500, 'swing', moveFirstSlide);
+		carouselList.animate({'marginLeft': '-400px'}, 500, 'swing', moveFirstSlideAfterLast);
 
 	}
-	function moveFirstSlide () {
+	function moveFirstSlideAfterLast () {
 		var firstItem = carouselList.find('li:first');
     	var lastItem = carouselList.find('li:last');
     	lastItem.after(firstItem);
@@ -25,3 +25,5 @@ $(function(){
 	}
 		setInterval(changeSlide, 3000);
 });
+
+
